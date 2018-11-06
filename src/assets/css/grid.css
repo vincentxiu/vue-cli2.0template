@@ -1,0 +1,181 @@
+﻿body
+{
+    box-sizing: border-box;
+    background-color: white;
+    color: #333;
+    font-family: "Helvetica Neue" , Helvetica, "PingFang SC" , "Hiragino Sans GB" , "Microsoft YaHei" , "微软雅黑" , Arial, sans-serif;
+    font-size: 14px;
+    overflow: -Scroll;
+}
+/* 列表页面搜索区域 */
+.search-wrap
+{
+    line-height: 40px;
+    background-color: #f8f8f9;
+    padding: 5px 10px;
+}
+/*搜索区域 */
+.search-wrap label
+{
+    display: inline-block;
+    width: 80px;
+    text-align: right;
+    color: #495060;
+    font-size: 12px;
+}
+.search-wrap .onSearch {
+    float:right;width: 320px;
+}
+/*.search-wrap .ivu-input-wrapper
+{
+    width: 250px;
+}*/
+
+/*横向多选、查询开始*/
+.section-two
+{
+    border: 1px solid #e9e9e9;
+    border-radius: 5px;
+    margin: 2vh 0;
+}
+.section-two > div
+{
+    border: 1px solid #e9e9e9;
+    display: flex;
+}
+.section-two .section-two-left
+{
+    width: 150px;
+    background-color: #f4f4f4;
+    display: flex;
+}
+.section-two .section-two-left > div
+{
+    text-align: center;
+    margin: auto;
+}
+.section-two .section-two-left span
+{
+    color: #999999;
+}
+.section-two .section-two-middle
+{
+    width: calc(100% - 80px);
+    display: flex;
+    padding: 2vh 0;
+}
+.section-two .section-two-middle > div
+{
+    margin: auto 0;
+    margin-left: 2vw;
+}
+.section-two .section-two-middle .section-two-middle-retract
+{
+    display: flex;
+}
+.section-two .section-two-middle .section-two-middle-expand
+{
+    display: flex;
+    margin-top: 1vh;
+}
+.section-two .section-two-middle .section-two-middle-content
+{
+    text-overflow: ellipsis;
+    border: 1px solid #108de9;
+    cursor: pointer;
+    padding: 0 1vw;
+    margin: 0 0.6vw;
+    font-size: 0.5vw;
+    line-height: 25px;
+    /* height: 25px; */
+    text-align: center;
+    border-radius: 5px;
+    font-size: 0.8vw;
+}
+.section-two .section-two-right
+{
+    width: 80px;
+    display: flex;
+}
+.section-two .section-two-right .section-two-right-btn
+{
+    cursor: pointer;
+}
+.section-two .section-two-right i
+{
+    cursor: pointer;
+    padding-left: 0.5vw;
+    color: #75bdf2;
+}
+.section-two .section-two-right span
+{
+    color: #108ee9;
+}
+.section-two .isActive
+{
+    background-color: #108de9;
+    color: #fff;
+}
+.section-two .expend
+{
+    align-items: center;
+}
+.section-two .close
+{
+    align-items: flex-end;
+    margin-bottom: 1vh;
+}
+/*横向多选、查询结束*/
+
+/* 列表页面table顶部的标签区域 */
+.list-top-wrap
+{
+    background-color: #f8f8f9;
+    padding: 0;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+.list-top-wrap .ivu-tag-dot{
+    border-radius:4px;
+    margin: 2px 8px 2px 0;
+}
+.list-top-wrap  .ive-tag-dot-active{
+   border: 1px solid #2D8CF0 !important;
+}
+/* 列表页面table顶部的操作按钮区域 */
+.operate-wrap
+{
+    margin-top: 10px;
+}
+.search-keyword
+{
+    float: right;
+}
+/* 列表分页 */
+.list-page-wrap
+{
+    float: right;
+    margin-top: 10px;
+}
+.list-page-wrap .ivu-icon
+{
+    line-height: 2;
+}
+.list-page-wrap .ivu-select-arrow
+{
+    line-height: 1;
+}
+/* 列表操作按钮 */
+.list-operateBtn
+{
+    color: #409eff;
+}
+/* 列表tag标签 */
+.sc-container .countTag
+{
+    background-color: white;
+}
+/*  影响到了时间控件
+.ivu-icon{
+    line-height: inherit;
+}*/
